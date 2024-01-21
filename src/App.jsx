@@ -1,11 +1,14 @@
-import './App.css';
+import React, { memo } from 'react'
+import { useRoutes } from 'react-router-dom'
 
-function App() {
+import routes from './router'
+
+const App = memo(() => {
   return (
-    <div className="App">
-      React App
+    <div>
+      {useRoutes(routes)}
     </div>
-  );
-}
+  )
+})
 
-export default App;
+export default App
