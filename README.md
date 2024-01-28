@@ -1,3 +1,13 @@
+# 基本使用
+
+```shell
+yarn install
+
+yarn start
+```
+
+# 使用到的配置和库
+
 1. 配置jsconfig.js
 
 ```https
