@@ -1,12 +1,12 @@
-import React from "react"
+import React from 'react';
 
-const Home = React.lazy(()=> import("@/views/home"));
+const Home = React.lazy(() => import('@/views/home'));
 
 const routes = [
   {
-    path: "/",
-    element: <Home/>
-  }
-]
+    path: '/',
+    element: <Home />,
+  },
+];
 
-export default routes
+export default routes;

@@ -26,3 +26,17 @@ yarn add @craco/craco -D
 ```shell
 yarn add normalize.css
 ```
+
+4. router
+
+```shell
+yarn add react-router-dom
+```
+
+5. redux
+
+```shell
+yarn install react-redux
+yarn install @reduxjs/toolkit
+```
+
